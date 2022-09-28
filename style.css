@@ -1,0 +1,140 @@
+body{
+    background-color: gray;
+  }
+  
+  img {
+    width: 264px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+  }
+  
+  header{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 120px;
+    height: 48px;
+  }
+  
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ canvas {
+    width: 700px;
+   font-size: 20px;
+   font-weight: bold;
+   color: #333;
+   padding:30px;
+   border: 6px solid rgb(150, 146, 146);
+   border-radius: 12px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  
+  .botonesMenu{
+    position: absolute;
+    top: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 317px;
+  }
+  
+  .iniciar{
+    width: 250px;
+    height: 80px;
+    border-radius: 12px;
+    background: linear-gradient(0deg, rgb(5, 128, 5) 45%, rgba(3, 73, 3, 0.664) 60%);
+    color: #f9f2f2;
+    border-color: #f2f3f5;
+    -webkit-text-stroke: 0.8px rgb(240 238 201 / 84%);
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  .agregar{
+    width: 200px;
+    height: 60px;
+    border-radius: 24px;
+    background: linear-gradient(0deg, rgb(249 249 249) 45%, rgb(185 186 185 / 66%) 60%);
+    color: #070707;
+    border-color: #515745;
+    font-size: 15px;
+  }
+  
+  .botonesAgregar{
+    position: absolute;
+    top: 65%;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    width: 317px;
+    display: none;
+  }
+  
+  .nuevaPalabra{
+    position: absolute;
+    top: 30%;
+    width: 500px;
+    height: 150px;
+    font-size: 24px;
+    border-radius: 37px;
+    border-color: #2D2727;
+    padding: 10px;
+    display: none;
+  }
+  
+  .guardar, .nuevo{
+    margin-top: 20px;
+    width: 300px;
+    height: 70px;
+    border-radius: 12px;
+    background: linear-gradient(0deg, rgb(5, 128, 5) 45%, rgba(3, 73, 3, 0.664) 60%);
+    color: #f9f2f2;
+    border-color: #f2f3f5;
+    -webkit-text-stroke: 0.8px rgb(240 238 201 / 84%);
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    
+  }
+  
+  .cancelar, .desistir{
+    width: 300px;
+    height: 50px;
+    border-radius: 24px;
+    background: linear-gradient(0deg, rgb(249 249 249) 45%, rgb(185 186 185 / 66%) 60%);
+    color: #070707;
+    border-color: #515745;
+    font-size: 18px;
+  }
+  
+  .juego{
+    position: absolute;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: auto;
+    height: auto;
+    display: none;
+    
+  }
+  .lienzo{
+    box-shadow: rgba(89, 122, 68, 0.733) 0px 10px 20px, rgba(25, 53, 7, 0.76) 0px 6px 6px;
+    border-radius: 12px;
+    background-image: url(https://static9.depositphotos.com/1113140/1105/i/450/depositphotos_11058932-stock-photo-white-wood-background.jpg);
+    background-size: cover; 
+    width: 100%;
+  }
+  .botonesJuego{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: -4px;
+    align-items: baseline;
+  }
+  
